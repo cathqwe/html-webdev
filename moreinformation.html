@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Gems of Switzerland</title>
+   
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            font-family: 'Georgia', serif;
+            text-align: center;
+            line-height: 1.6;
+            color: #4A90E2;
+        }
+        h1 {
+            color: #4A90E2;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        
+        }
+        .places {
+            position: relative;
+            width: 30%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .places img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+        }
+        .hover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .places:hover .hover-image {
+            opacity: 1;
+        }
+        .places:hover img {
+            transform: scale(1.1);
+        }
+        .places:hover {
+            transform: translateY(-10px);
+        }
+        .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .places:hover .description {
+            opacity: 1;
+        }
+
+        h3:hover {
+            color: #4A90E2;
+        }
+        h2:hover {
+            color: chocolate;
+        }
+        a {
+            color: #4A90E2;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #D2691E;
+        }
+        .back-btn {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .back-btn a {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #4A90E2;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .back-btn a:hover {
+            background-color: #D2691E;
+        }
+        *{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="travel-tips">
+        <h2>Hidden Gems of Switzerland</h2>
+        <div class="container">
+            <div class="places">
+                <img class="normal-image" src="./images/appanzel.jpg" alt="Appenzell">
+                <img class="hover-image" src="./images/appanzel1.png" alt="Appenzell Hover">
+                <div class="description">Appenzell</div>
+            </div>
+
+            <div class="places">
+                <img class="normal-image" src="./images/gimmelwald1.png" alt="Gimmelwald">
+                <img class="hover-image" src="./images/Gimmelwald.jpg" alt="Gimmelwald Hover">
+                <div class="description">Gimmelwald</div>
+            </div>
+
+            <div class="places">
+                <img class="normal-image" src="./images/rothorn1.png" alt="Rothorn">
+                <img class="hover-image" src="./images/rothorn.png" alt="Rothorn Hover">
+                <div class="description">Rothorn</div>
+            </div>
+        </div>
+
+        <br>
+        <h2>Discover more in Switzerland</h2>
+            <h3>Geography</h3>
+                <p>Switzerland is a landlocked country located in Central Europe, bordered by France, Germany, Italy, Austria, and Liechtenstein. It's known for its stunning landscapes, including the Swiss Alps, beautiful lakes, and picturesque valleys.</p>
+            <h3>Culture</h3>
+                <p>Switzerland has a rich cultural heritage influenced by its multilingual population. The country has four official languages: German, French, Italian, and Romansh. Each region has its own unique customs, traditions, and culinary specialties.</p>
+            
+           <h3>Economy</h3>
+                <p>Switzerland boasts one of the highest per capita incomes in the world and is known for its robust economy, driven by finance, pharmaceuticals, machinery, and tourism. Major cities like Zurich and Geneva are global financial hubs.</p>
+            
+            <h3>Dining Etiquette</h3>
+                <p>Swiss dining customs are generally informal. Tipping is appreciated but not mandatory; rounding up the bill or leaving small change is common.</p>
+            
+       
+
+        <div class="back-btn">
+            <h3><a href="index1.html">Go back to Home page</a></h3>
+        </div>
+    </div>
+</body>
+</html>

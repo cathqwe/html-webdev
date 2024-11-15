@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: seagreen; 
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10%;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.image-container {
+    text-align: center;
+    
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 700px; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+ h2 {
+    color: seagreen; 
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: lightcoral;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+.back-home:hover {
+    background-color: seagreen; 
+}
+

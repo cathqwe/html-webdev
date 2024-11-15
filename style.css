@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    font-family: 'Impact', sans-serif;
+    color: #4A90E2;
+}
+
+/* Logo styles */
+.picture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-image {
+    height: 300px;
+    width: 300%;
+    max-width: 1900px;
+}
+
+/* Navigation Bar styles */
+#topnav {
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#topnav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#topnav a:hover {
+    background-color: #45a049;
+}
+
+#topnav a.active {
+    background-color: seagreen;
+}
+
+#intro {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.places {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.places:hover {
+    transform: scale(1.05);
+}
+
+.normal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 8px;
+}
+
+.places:hover .hover-image {
+    opacity: 1;
+}
+
+/* Description Box */
+.description {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+}
+
+/* About Us Section */
+#about-us {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#about-us h2 {
+    color: #4A90E2;
+}
+
+#about-us p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+h2{
+ color: black;
+}
+h1{
+    color: #4A90E2;
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Foods in Switzerland</title>
+    <link rel="shortcut icon" href="favico.ico" type="image/s=x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            text-align: center; 
+        }
+        h1 {
+            color: #4A90E2;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; 
+        }
+        .food-item {
+            position: relative; 
+            width: 30%; 
+            overflow: hidden;
+        }
+        .food-item img {
+            width: 100%;
+            height: auto;
+            display: block; 
+        }
+        .hover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; 
+            transition: opacity 0.3s ease; 
+        }
+        .food-item:hover .hover-image {
+            opacity: 1; 
+        }
+        .description {
+            padding: 10px;
+        }
+        
+        .img1:hover{
+            content: url(./images/Rösti.png);
+        }
+        .img2:hover{
+            content: url(./images/fondue.png);
+        }
+        .img3:hover{
+            content: url(./images/Aletsch\ Glacier.png);
+        }
+        .img4:hover{
+            content: url(./images/Schnitze.png);
+        }
+        .img5:hover{
+            content: url(./images/Birchermüesli.png);
+        }
+        .img6:hover{
+            content: url(./images/Zuger\ Kirschtorte.png);
+        }
+        h1:hover{
+            color: saddlebrown;
+        }
+        h2:hover{
+            color: blue;
+        }
+        p:hover{
+            background-color: bisque;
+        }
+        *{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Top Foods in Switzerland</h1>
+        <div class="container">
+            <div class="food-item">
+                    <img class="img1" src="./images/logo.png" alt="Rösti" width="150%"; height="150%;">
+                <div class="description">
+                    <h2>Rösti</h2>
+                    <p>Rösti is a traditional Swiss dish of fried potato pancakes that's often considered the country's national dish: !</p>
+                </div>
+            </div>
+            <div class="food-item">
+                <img class="img2" src="./images/logo.png" alt="Fondue" width="150%"; height="150%;">
+                <div class="description">
+                    <h2>Fondue</h2>
+                    <p>This iconic Swiss dish features melted cheese served with bread for dipping. A must-try for cheese lovers!</p>
+                    
+                </div>
+            </div>
+            <div class="food-item">
+                <img class="img3" src="./images/logo.png" alt="Alplermagronen" width="150%"; height="150%;">
+                <div class="description">
+                    <h2>Alplermagronen</h2>
+                    <p>Alpine macaroni (älplermagronen or alpen macaroni) is essentially Swiss mac and cheese with potatoes. Macaroni and cubed potatoes collectively drown in a decadent cheese sauce!.</p>
+                    
+                </div>
+            </div>
+            <div class="food-item">
+                <img class="img4" src="./images/logo.png" alt="Schnitze" width="150%"; height="150%;">
+                <div class="description">
+                    <h2>Schnitze</h2>
+                    <p>Schnipo (a schnitzel and fried potato combination) is quite popular. The Rahmschnitzel version is made with either veal or pork and topped with a cream sauce, sometimes including mushrooms.!</p>
+                    
+                </div>
+            </div>
+            <div class="food-item">
+                <img class="img5" src="./images/logo.png" alt="Birchermüesli" width="150%"; height="150%;">
+                <div class="description">
+                    <h2>Birchermüesli</h2>
+                    <p> It's popular for breakfast as it gives you a healthy boost of vitamins, proteins and healthy starchy ingredients for a great start into the morning!</p>
+                    
+                </div>
+            </div>
+            <div class="food-item">
+                <img class="img6" src="./images/logo.png" alt="Zuger Kirschtorte" width="150%"; height="150%;">
+                <div class="description">
+                    <h2>Zuger Kirschtorte</h2>
+                    <p> Swiss layer cake that consists of layers of nut-meringue, sponge cake and butter cream, and is flavoured with the cherry brandy kirschwasser.!</p>
+                   
+                </div>
+                <h3><a href="index1.html">Go back to Home page</a></h3>
+    </main>
+    
+</body>
+</html>
