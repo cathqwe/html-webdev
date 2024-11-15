@@ -116,6 +116,10 @@ h1, h3 {
     border-radius: 8px;
 }
 
+#about-us:hover {
+    background-color: #2E8B57;
+}
+
 #about-us h2 {
     color: #4A90E2;
 }
